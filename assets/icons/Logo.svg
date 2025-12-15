@@ -1,0 +1,28 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="19.5" fill="#9D1A1A" stroke="#FFDDDD"/>
+<rect x="13" y="9" width="11" height="17" rx="5.5" fill="white"/>
+<mask id="mask0_385_472" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="13" y="14" width="11" height="17">
+<rect x="24" y="31" width="11" height="17" rx="5.5" transform="rotate(-180 24 31)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_385_472)">
+<path d="M18.5 27.5C14.6639 27.5 11.5 24.173 11.5 20C11.5 15.827 14.6639 12.5 18.5 12.5C22.3361 12.5 25.5 15.827 25.5 20C25.5 24.173 22.3361 27.5 18.5 27.5Z" stroke="white"/>
+</g>
+<rect x="17.75" y="27" width="1.5" height="6" fill="white"/>
+<rect x="14" y="33" width="9" height="1" rx="0.5" fill="white"/>
+<circle cx="16.5" cy="12.5" r="0.5" fill="#603939"/>
+<circle cx="16.5" cy="16.5" r="0.5" fill="#603939"/>
+<circle cx="18.5" cy="12.5" r="0.5" fill="#603939"/>
+<circle cx="18.5" cy="16.5" r="0.5" fill="#603939"/>
+<circle cx="20.5" cy="12.5" r="0.5" fill="#603939"/>
+<circle cx="20.5" cy="16.5" r="0.5" fill="#603939"/>
+<circle cx="21.5" cy="14.5" r="0.5" fill="#603939"/>
+<circle cx="19.5" cy="14.5" r="0.5" fill="#603939"/>
+<circle cx="17.5" cy="14.5" r="0.5" fill="#603939"/>
+<circle cx="15.5" cy="14.5" r="0.5" fill="#603939"/>
+<path d="M22 7.5C25.2 9.5 26 12.3333 26 13.5" stroke="white"/>
+<path d="M24 6C27.2 8 28 10.8333 28 12" stroke="white"/>
+<path d="M26.5 13.5C26.5 13.7761 26.2761 14 26 14C25.7239 14 25.5 13.7761 25.5 13.5C25.5 13.2239 25.7239 13 26 13C26.2761 13 26.5 13.2239 26.5 13.5Z" fill="white"/>
+<path d="M22.5 7.5C22.5 7.77614 22.2761 8 22 8C21.7239 8 21.5 7.77614 21.5 7.5C21.5 7.22386 21.7239 7 22 7C22.2761 7 22.5 7.22386 22.5 7.5Z" fill="white"/>
+<path d="M24.5 6C24.5 6.27614 24.2761 6.5 24 6.5C23.7239 6.5 23.5 6.27614 23.5 6C23.5 5.72386 23.7239 5.5 24 5.5C24.2761 5.5 24.5 5.72386 24.5 6Z" fill="white"/>
+<path d="M28.5 12C28.5 12.2761 28.2761 12.5 28 12.5C27.7239 12.5 27.5 12.2761 27.5 12C27.5 11.7239 27.7239 11.5 28 11.5C28.2761 11.5 28.5 11.7239 28.5 12Z" fill="white"/>
+</svg>
