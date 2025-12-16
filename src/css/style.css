@@ -10,3 +10,6 @@
 
 /*base*/
 @import "/src/css/base/main.css";
+
+/*Vendors*/
+@import "/src/css/vendors/normalize.css";
