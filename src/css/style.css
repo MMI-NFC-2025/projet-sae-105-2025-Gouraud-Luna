@@ -4,3 +4,6 @@
 /*Layout*/
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";
+
+/*Components*/
+@import "/src/css/components/menu.css"
