@@ -1,3 +1,6 @@
+/*Variables*/
+@import "/src/css/utils/variables.css";
+
 /*Layout*/
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";

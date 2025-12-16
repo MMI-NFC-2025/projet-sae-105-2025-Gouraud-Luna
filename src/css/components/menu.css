@@ -1,0 +1,11 @@
+.menu{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.menu.open{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
