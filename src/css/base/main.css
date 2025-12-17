@@ -35,13 +35,11 @@
 }
 
 h1{
+    color: white;
     margin-top: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-p{
-    color: white;
+.discover-card {
+    align-items: center;
+    background: var(--gray);
 }
