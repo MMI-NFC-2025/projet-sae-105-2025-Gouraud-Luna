@@ -6,3 +6,17 @@
     --dark-blue: #2b2251;
     --rouge: #690c0c;
 }
+/* Typographie */
+:root {
+    /* Mode 1 */
+    /* number */
+    --texte-small: 1rem;
+    --texte-p: 1.25rem;
+    --texte-h4: 1.5625rem;
+    --texte-h3: 1.875rem;
+    --texte-h2: 2rem;
+    --texte-h1: 2.25rem;
+    /* string */
+    --font-ensemble: Lato;
+    --font-titre: Exo-2;
+}
