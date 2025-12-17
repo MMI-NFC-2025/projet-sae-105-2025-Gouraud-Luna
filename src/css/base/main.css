@@ -36,14 +36,16 @@ body{
     margin: 32px;
     margin-top: 41px;
     height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero__card p{
     color: var(--midnight-blue);
     text-align: center;
-    justify-content: center;
     font-size: var(--texte-p);
-    font-family: var(----font-ensemble)
+    font-family: var(--font-ensemble);
 }
 
 h1{
@@ -59,6 +61,8 @@ h2{
     color: white;
     font-family: var(--font-titre);
     font-size: var(--texte-h2);
+    margin-bottom: 31px;
+    margin-top: 22px;
 }
 
 .discover-card {
