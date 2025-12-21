@@ -1,0 +1,12 @@
+.footer{
+    background: var(--rouge);
+}
+
+.footer__nav ul {
+    list-style: none;
+}
+
+.footer__link{
+    color: white;
+    list-style: none;
+}
