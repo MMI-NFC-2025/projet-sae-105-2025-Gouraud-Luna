@@ -2,5 +2,12 @@
     height: 55px;
     width: 100%;
     background: var(--dark-blue);
-    position: fixed;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
