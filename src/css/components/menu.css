@@ -1,4 +1,4 @@
-.menu{
+.menu {
     height: 0;
     opacity: 0;
     visibility: hidden;
@@ -6,26 +6,106 @@
     overflow: hidden;
 }
 
-.menu.open{
+.menu.open {
     position: fixed;
-    height: 100vh;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 55px);
     width: 100vw;
     opacity: 1;
     visibility: visible;
     display: flex;
-    background-color: var(--rouge);
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    background-color: var(--rouge);
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.menu li{
+.menu ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 312px;
+    height: 1px;
+    background-color: white;
+}
+
+.menu ul:first-child {
+    padding-top: 0;
+}
+
+.menu ul:first-child::before {
+    display: none;
+}
+
+/* Sous-menus */
+.menu ul > ul::before {
+    width: 240px !important;
+}
+
+.menu li {
     display: list-item;
 }
 
-.menu-btn{
+.menu>ul>li {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font-titre);
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.menu>ul>li>a:hover {
+    opacity: 0.8;
+}
+
+/* Sous-menus */
+.menu ul>ul {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu ul>ul>li {
+    padding: 12px 0;
+    font-size: 0.9rem;
+}
+
+.menu ul>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.95;
+}
+
+.menu-btn {
     position: relative;
     width: 20px;
     height: 14px;
@@ -40,7 +120,7 @@
     cursor: pointer;
 }
 
-.menu-btn span{
+.menu-btn span {
     display: block;
     width: 20px;
     height: 2px;
