@@ -10,6 +10,7 @@
 
 /*Components*/
 @import "/src/css/components/menu.css";
+@import "/src/css/components/hero--card.css";
 
 /*base*/
 @import "/src/css/base/main.css";

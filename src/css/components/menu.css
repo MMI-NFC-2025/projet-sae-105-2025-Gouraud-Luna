@@ -16,3 +16,7 @@
     background-color: var(--rouge);
     align-items: center;
 }
+
+.menu ul{
+    list-style-type: none;
+}

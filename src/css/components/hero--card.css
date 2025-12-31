@@ -1,0 +1,17 @@
+.hero__card {
+    background: var(--gris);
+    border-radius: 30px;
+    margin: 32px;
+    margin-top: 41px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__card p {
+    color: var(--midnight-blue);
+    text-align: center;
+    font-size: var(--texte-p);
+    font-family: var(--font-ensemble);
+}
