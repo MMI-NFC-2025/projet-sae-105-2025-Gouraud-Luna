@@ -22,8 +22,9 @@ body{
     content: ">";
 }
 
-.hero{
+.hero__index{
     background: var(--purple);
+    height: 522px;
 }
 
 .header.hero{

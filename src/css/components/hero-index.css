@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.hero__card:last-child {
+    margin-bottom: 53px;
+}
+
 .hero__card p {
     color: var(--midnight-blue);
     text-align: center;
