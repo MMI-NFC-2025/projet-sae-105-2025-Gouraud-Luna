@@ -47,36 +47,3 @@ h2{
     margin-bottom: 31px;
     margin-top: 22px;
 }
-
-.discover-card {
-    background: var(--purple);
-    border-radius: 40px;
-    overflow: hidden;
-    width: 329px;
-    height: 182px;
-    margin-left: 26px;
-    margin-right: 52px;
-    margin-bottom: 31px;
-}
-
-.discover-card a{
-    display: flex;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-}
-
-.discover-card img{
-    width: 134px;
-    height: 182px;
-}
-
-.discover-card p{
-    margin-bottom: 15px;
-    margin-top: 0px;
-    padding-left: 5px; 
-    color: white;
-    font-size: var(--texte-p);
-    display: flex;
-    align-items: center;
-}
