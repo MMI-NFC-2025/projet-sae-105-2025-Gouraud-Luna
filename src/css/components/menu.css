@@ -58,11 +58,6 @@
     display: none;
 }
 
-/* Sous-menus */
-.menu ul > ul::before {
-    width: 240px !important;
-}
-
 .menu li {
     display: list-item;
 }
@@ -78,15 +73,8 @@
     font-size: 20px;
     font-family: var(--font-titre);
     display: block;
-    line-height: 1.4;
-    font-weight: 400;
 }
 
-.menu>ul>li>a:hover {
-    opacity: 0.8;
-}
-
-/* Sous-menus */
 .menu ul>ul {
     border-top: none;
     padding-top: 0;
@@ -125,4 +113,25 @@
     width: 20px;
     height: 2px;
     background: var(--gris);
+}
+
+.menu-btn.open span {
+    display: none;
+}
+
+.menu-btn.open::before,
+.menu-btn.open::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: var(--gris);
+}
+
+.menu-btn.open::before {
+    transform: rotate(45deg);
+}
+
+.menu-btn.open::after {
+    transform: rotate(-45deg);
 }
