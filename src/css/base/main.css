@@ -47,3 +47,11 @@ h2{
     margin-bottom: 31px;
     margin-top: 22px;
 }
+
+h3{
+    color: white;
+    font-family: var(--font-ensemble);
+    font-size: var(--texte-h3);
+    margin-left: 20px;
+    margin-right: 20px;
+}

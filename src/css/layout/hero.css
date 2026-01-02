@@ -1,3 +1,9 @@
 .hero{
     background-color: var(--purple);
 }
+
+.entree-blog{
+    font-family: var(--font-ensemble);
+    font-size: 10;
+    color: white;
+}

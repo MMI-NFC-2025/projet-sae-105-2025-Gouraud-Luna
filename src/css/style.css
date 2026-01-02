@@ -13,6 +13,7 @@
 /*Components*/
 @import "/src/css/components/menu.css";
 @import "/src/css/components/discover--cards.css";
+@import "/src/css/components/article.css";
 
 /*base*/
 @import "/src/css/base/main.css";

@@ -1,0 +1,41 @@
+article p {
+    color: white;
+    font-size: var(--texte-p);
+    font-family: var(--font-ensemble);
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-right: 65px;
+}
+
+article a {
+    text-decoration: underline;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 138.92px;
+    height: 146.0px;
+}
+
+button.article-btn{
+    background-color: var(--rouge);
+    width: 259px;
+    height: 45px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    margin-left: 67px;
+    margin-right: 67px;
+    border-radius: 50px;
+}
+
+button.article-btn p{
+    text-decoration: underline;
+    color: white;
+    font-family: var(--font-ensemble);
+    font-size: 14;
+    align-items: center;
+    margin-top: 4px;
+}
