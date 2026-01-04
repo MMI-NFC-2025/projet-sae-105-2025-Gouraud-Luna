@@ -1,9 +1,16 @@
 .hero{
     background-color: var(--purple);
+    min-height: 215px;
+    width: 393px;
 }
 
 .entree-blog{
     font-family: var(--font-ensemble);
     font-size: 10;
     color: white;
+}
+
+.breadcrumb{
+    margin-top: 196px;
+    margin-right: 176px;
 }
