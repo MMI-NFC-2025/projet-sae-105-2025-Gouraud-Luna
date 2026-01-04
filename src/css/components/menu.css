@@ -113,6 +113,7 @@
     width: 20px;
     height: 2px;
     background: var(--gris);
+    border-radius: 2px;
 }
 
 .menu-btn.open span {

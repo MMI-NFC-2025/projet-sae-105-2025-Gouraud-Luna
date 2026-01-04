@@ -10,7 +10,7 @@
 }
 
 .hero__card:last-child {
-    margin-bottom: 53px;
+    margin-bottom: 0px;
 }
 
 .hero__card p {
@@ -18,4 +18,22 @@
     text-align: center;
     font-size: var(--texte-p);
     font-family: var(--font-ensemble);
+}
+
+.hero__index{
+    background: var(--purple);
+    padding-top: 0px;
+    padding-right: 32px;
+    padding-bottom: 53px;
+    padding-left: 32px;
+    text-align: center;
+}
+
+.hero__index h1{
+    font-size: var(--texte-h1);
+    font-family: var(--font-titre);
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 0px;
 }

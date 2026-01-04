@@ -2,42 +2,19 @@ body{
     background-color: var(--midnight-blue);
 }
 
-.breadcrumb ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    color: white;
-}
-.breadcrumb a:link,
-.breadcrumb a:visited{
-    color: white;
-}
-
-.breadcrumb li:not(:last-child)::after {
-    display: inline-block;
-    margin: 5.5px;
-    content: ">";
-}
-
-.hero__index{
-    background: var(--purple);
-    height: 522px;
-}
-
 .header.hero{
     background: var(--purple);
 }
 
 h1{
     color: white;
-    margin-top: 0px;
-    margin-bottom: 9px;
+    padding-top: 88px;
+    padding-bottom: 89px;
     font-size: var(--texte-h1);
     font-family: var(--font-titre);
     text-align: center;
+    display: block;
+    margin: 0px;
 }
 
 h2{
