@@ -33,6 +33,22 @@ h3{
     margin-right: 20px;
 }
 
+h4{
+    color: white;
+    font-family: var(--font-ensemble);
+    font-size: var(--texte-h4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 button{
     cursor: pointer;
+}
+
+.definition p{
+    color: white;
+    font-family: var(--font-ensemble);
+    font-size: var(--texte-p);
+    text-align: center;
 }
