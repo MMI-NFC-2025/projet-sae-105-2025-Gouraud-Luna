@@ -6,12 +6,14 @@
 
 .entree-blog{
     font-family: var(--font-ensemble);
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 10;
     color: white;
 }
 
 .breadcrumb{
-    margin-top: 196px;
+    margin-top: 5px;
     margin-right: 176px;
 }
 .breadcrumb ol {
