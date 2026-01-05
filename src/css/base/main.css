@@ -55,3 +55,9 @@ p{
     font-size: var(--texte-p);
     text-align: center;
 }
+
+.glossaire-def {
+    color: var(--gris);
+    text-decoration: underline;
+    font-style: oblique;
+}
