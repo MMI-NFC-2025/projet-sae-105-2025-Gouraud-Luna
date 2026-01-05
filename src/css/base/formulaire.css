@@ -24,9 +24,23 @@
     flex: 1 1 100%;
 }
 
-.formulaire__input:nth-child(1),
-.formulaire__input:nth-child(2) {
+form > .formulaire__input:nth-child(1),
+form > .formulaire__input:nth-child(2) {
     flex: 1 1 calc(50% - 8px);
+    display: flex;
+    flex-direction: column;
+}
+
+form > .formulaire__input:nth-child(1) label,
+form > .formulaire__input:nth-child(2) label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form > .formulaire__input:nth-child(1) input,
+form > .formulaire__input:nth-child(2) input {
+    width: 100%;
+    margin: 0;
 }
 
 .formulaire__input label {
@@ -35,16 +49,25 @@
     font-size: var(--text-p);
 }
 
+
+
+.formulaire__input:nth-child(1) input,
+.formulaire__input:nth-child(2) input {
+    width: 101px;
+}
+
 .formulaire__input input,
 .formulaire__input textarea {
-    width: 100%;
+    width: 252px;
     padding: 12px 16px;
     border: none;
     border-radius: 20px;
-    background-color: #D9D9E3;
+    background-color: rgba(255, 255, 255, 78);
     font-family: var(--font-ensemble);
     font-size: var(--text-p);
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .formulaire__input textarea {
@@ -52,6 +75,10 @@
     resize: vertical;
 }
 
+.formulaire__input input{
+    margin-left: 70px;
+    margin-right: 71px;
+}
 .button__formulaire {
     margin: 67px;
     margin-top: 16px;
@@ -62,7 +89,6 @@
 .button__formulaire button {
     width: 271px;
     height: 45px;
-    
     background-color: var(--rouge);
     color: white;
     border: none;
