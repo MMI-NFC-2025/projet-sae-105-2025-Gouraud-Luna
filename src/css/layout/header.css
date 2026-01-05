@@ -1,12 +1,14 @@
 .header {
     height: 55px;
     width: 100%;
+    max-width: 393px;
     background: var(--dark-blue);
     display: flex;
     align-items: center;
     padding: 0 16px;
     box-sizing: border-box;
     gap: 12px;
+    position: fixed;
 }
 
 .header__logo{
