@@ -20,9 +20,9 @@ h1{
 h2{
     color: white;
     font-family: var(--font-titre);
-    font-size: var(--texte-h2);
     margin-bottom: 31px;
     margin-top: 22px;
+    font-size: var(--texte-h2);
 }
 
 h3{
@@ -40,6 +40,12 @@ h4{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+p{
+    color: white;
+    font-size: var(--texte-p);
+    font-family: var(--font-ensemble);
 }
 
 button{
