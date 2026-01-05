@@ -15,6 +15,7 @@
 @import "/src/css/components/discover--cards.css";
 @import "/src/css/components/article.css";
 @import "/src/css/components/frise.css";
+@import "/src/css/components/carousel.css";
 
 /*base*/
 @import "/src/css/base/main.css";
