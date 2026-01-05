@@ -15,9 +15,8 @@
 @import "/src/css/components/discover--cards.css";
 @import "/src/css/components/article.css";
 @import "/src/css/components/frise.css";
-@import "/src/css/components/imgpascientist.css";
-@import "/src/css/components/video.css";
 
 /*base*/
 @import "/src/css/base/main.css";
 @import "/src/css/base/formulaire.css";
+@import "/src/css/base/media.css";
