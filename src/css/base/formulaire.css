@@ -51,3 +51,24 @@
     min-height: 150px;
     resize: vertical;
 }
+
+.button__formulaire {
+    margin: 67px;
+    margin-top: 16px;
+    margin-bottom: 44px;
+    
+}
+
+.button__formulaire button {
+    width: 271px;
+    height: 45px;
+    
+    background-color: var(--rouge);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--font-ensemble);
+    font-size: var(--text-p);
+    cursor: pointer;
+    text-decoration: underline;
+}
