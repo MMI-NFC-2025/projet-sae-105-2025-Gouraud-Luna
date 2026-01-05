@@ -48,9 +48,6 @@ p{
     font-family: var(--font-ensemble);
 }
 
-button{
-    cursor: pointer;
-}
 
 .definition p{
     color: white;

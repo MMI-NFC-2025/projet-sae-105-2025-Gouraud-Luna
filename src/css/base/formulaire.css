@@ -95,6 +95,5 @@ form > .formulaire__input:nth-child(2) input {
     border-radius: 50px;
     font-family: var(--font-ensemble);
     font-size: var(--text-p);
-    cursor: pointer;
     text-decoration: underline;
 }
