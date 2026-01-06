@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echos of Matilda - Home page</title>
+    <title>Echos of Matilda - Contact </title>
     <!--style-->
     <link rel="stylesheet" href="/src/css/style.css">
 
@@ -15,21 +15,34 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Echos de Matilda" />
     <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+    <!--Fonts-->
+    <!--Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <!--Exo-2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shrikhand&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <a class="header__logo" href="index.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo of the site">
+        <a class="header__logo" href="/index.html">
+            <img src="/assets/icons/Logo.svg" alt="Logo du site">
         </a>
         <div class="langage-switcher">
-            <img src="/assets/icons/icone_langue.svg" alt="language changing icone">
-            <select name="langage-switch" id="language-switcher" aria-label="Change language">
-                <option value="en">
-                    en
-                </option>
+            <img src="/assets/icons/icone_langue.svg" alt="icone de changement de langue">
+            <select name="langage-switch" id="language-switcher" aria-label="Changer de langue">
                 <option value="fr">
                     fr
+                </option>
+                <option value="en">
+                    en
                 </option>
             </select>
         </div>
@@ -121,66 +134,55 @@
         </nav>
     </header>
     <main>
-        <div class="hero__index">
+        <div class="hero">
             <h1>
-                What is the Matilda Effect ?
+                Contact
             </h1>
-            <div class="hero__card">
-                <p>
-                    A women scientist make a discovery
-                </p>
-            </div>
-            <div class="hero__card">
-                <p>
-                    All of her work is attributed to a male coworker
-                </p>
-            </div>
-            <div class="hero__card">
-                <p>
-                    It doesn't give a correct representation of women
-                </p>
-            </div>
+            <nav aria-label="Breadcrumb" class="breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span aria-current="page">Contact</span></li>
+                </ol>
+            </nav>
         </div>
-        <h2>
-            More on The Matilda Effect
-        </h2>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/jocelynbellburnell_discover_card.webp" alt="photos de Jocelyn">
-                <p>
-                    The Exemple of Jocelyn Bell Burnell
-                    , a britain astrophysicist who discovered Pulsars.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/pulsar_discover_card.webp" alt="Photo de pulsar">
-                <p>
-                    Jocelyn's theory on the pulsars and the context that lead her to discover it.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/livres_discover_card.webp" alt="images de livres" loading="lazy">
-                <p>
-                    Depending on the era, Woman are represented
-                    differently in litterature.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/picture_a_scientist_discover_card.webp"
-                    alt="Affiche du documentaire Picture a scientist" loading="lazy">
-                <p>
-                    Discrimination lived by women scientist and the questioning of a science presented as egalitarian.
-                </p>
-            </a>
-        </div>
+        <div class="formulaire">
+            <p>
+                Contact 
+                <br/>
+                25200, Montbéliard
+                <br/>
+                +33 0 01 23 45 67
+                <br/>
+                salut@iut.montbéliard-mmi.fr
+            </p>
+            <form action="/data.html" method="post">
+                <div class="formulaire__input">
+                    <label for="name">Name :</label>
+                    <input type="text" name="user_name">
+                </div>
+                <div class="formulaire__input">
+                    <label for="first-name">First Name :</label>
+                    <input type="text" name="user_first-name">
+                </div>
+                <div class="formulaire__input">
+                    <label for="mail">Messaging service :</label>
+                    <input type="email" name="user_mail">
+                </div>
+                <div class="formulaire__input">
+                    <label for="mail">Phone number :</label>
+                    <input type="phone" name="user_phone">
+                </div>
+                <div class="formulaire__input" style="margin-left: 70px;">
+                    <label for="msg">Message :</label>
+                    <textarea name="user_message">                    </textarea>
+                </div>
+                <div class="button__formulaire">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+    </div>
     </main>
-    <footer class="footer">
+     <footer class="footer">
         <nav class="footer__nav">
             <ul>
                 <li>
@@ -195,7 +197,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        Other projects
+                        Other project
                     </a>
                 </li>
             </ul>
@@ -210,7 +212,7 @@
             project realised in 2025 as part of an educational exercise at the department
             <span>
                 <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                    MMI of Montbéliard.
+                    MMI of Montbéliard
                 </a>
             </span>
         </p>
