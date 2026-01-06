@@ -66,3 +66,21 @@ p{
 .presentation{
     text-align: center;
 }
+
+a.projets{
+    text-decoration: underline;
+    color: white;
+    font-size: var(--texte-p);
+    font-family: var(--font-ensemble);
+    text-align: center;
+    display: block;
+    line-height: 2;
+}
+
+a.projets:first-child{
+    margin-top: 64px;
+}
+
+a.projets:last-child{
+    margin-bottom: 120px;
+}
