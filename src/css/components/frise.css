@@ -1,39 +1,13 @@
-/*
-.frise {
-    padding: 3rem 1rem;
-    min-height: 100vh;
-}
-
-.frise-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 0;
-}
-
-
-.frise-content::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 5px;
-    background-color: var(--rouge);
-}*/
-
-.frise__img-g {
-    margin-left: 22px;
-}
-
 .frise__img-d{
+    width: 130px;
+    height: auto;
     float: right;
     clear: right;
     margin: 22px;
 }
 
-.frise__text-g {
-    float: left;
-    clear: left;
+.frise__img-g {
+    width: 130px;
+    height: auto;
     margin: 22px;
-    text-align: center;
 }
