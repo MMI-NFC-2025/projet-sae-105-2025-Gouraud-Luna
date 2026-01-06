@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echos de Matilda - Article picture a scientist</title>
+    <title>Echos de Matilda - Frise de Matilda</title>
     <!--style-->
     <link rel="stylesheet" href="/src/css/style.css">
 
@@ -20,16 +20,16 @@
 <body>
     <header class="header">
         <a class="header__logo" href="index.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo du site">
+            <img src="/assets/icons/Logo.svg" alt="Logo of the site">
         </a>
         <div class="langage-switcher">
-            <img src="/assets/icons/icone_langue.svg" alt="icone de changement de langue">
-            <select name="langage-switch" id="language-switcher" aria-label="Changer de langue">
-                <option value="fr">
-                    fr
-                </option>
+            <img src="/assets/icons/icone_langue.svg" alt="language changing icone">
+            <select name="langage-switch" id="language-switcher" aria-label="Change language">
                 <option value="en">
                     en
+                </option>
+                <option value="fr">
+                    fr
                 </option>
             </select>
         </div>
@@ -123,111 +123,94 @@
     <main>
         <div class="hero">
             <h1>
-                Picture a scientist
+                Timeline of Matilda
             </h1>
-            <p class="entree-blog">
-                by Luna Gouraud
-                <br />
-                published on 10/21/25 at 14h51
-            </p>
             <nav aria-label="Breadcrumb" class="breadcrumb">
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li><span aria-current="page">Picture a scientist</span></li>
+                    <li><a href="scientist_article.html">Jocelyn Bell Burnell</a></li>
+                    <li><span aria-current="page">Timeline of Matilda</span></li>
                 </ol>
             </nav>
         </div>
-        <article>
-            <h2>Document presentation</h2>
-            <p>
-                Picture a scientist is a documentary released in 2020, lighting up the unfairness that women suffer in science.
-            </p>
-            <img class="img_pictureascientist" src="/assets/img/pictureascientist-a-f.webp" alt="Affiche Picture a scientist">
-            <h2>HIghlighted Researchers</h2>
-
-            <h3>Nancy Hopkins</h3>
-            <p>
-                Nancy Hopkins, biologist et the MIT, illustrates the undervaluation of the work of female researchers, particularly through a lack of recognition and resources compared to her male colleagues.
-                His experience reveals structural inequalities that are often minimized.
-            </p>
-
-            <h3>Raychelle Burks</h3>
-            <p>
-                 Raychelle Burks, chemist, tells us how she experienced both sexism and racism in her scientific career.
-                Her testimony reminds us that some women must face several forms of discrimination at the same time.
-            </p>
-
-            <h3>Jane Willenbring</h3>
-            <p>
-                Jane Willenbring, geologist, testifies about the sexual harassment she suffered in the field from a superior.
-                By breaking the silence, she highlights the consequences of this violence and the lack of protection for victims.
-            </p>
-
-            <h2>An engaged documentary</h2>
-            <p>
-                Thanks to those stories, the documentary makes visible injustices that have long been silenced and questions the idea of ​​a truly egalitarian science.
-                It invites us to rethink scientific culture to create fairer and more inclusive work environments.
-            </p>
-        </article>
-        <div class="video">
-            <video controls>
-                <source src="/assets/video/pictureascientist.mp4" type="video/mp4">
-            </video>   
-        </div>
-        <div class="carousel">
-            <h2>
-                Related films
-            </h2>
-            <div class="carousel__container" role="region" aria-live="polite">
-                <div class="carousel__item">
-                    <img src="/assets/img/hiddendfigures.webp" alt="Affiche du film Les figures de l'ombres">
-                    <p>
-                        Hidden Figures, 2016, <br/>
-                        Theodore Melfi
-                    </p>
-                </div>
-                <div class="carousel__item">
-                    <img src="/assets/img/contact_film.webp" alt="Affiche du film Contact">
-                    <p>
-                        Contact, 1997, <br/>
-                        Robert Zemeckis
-                    </p>
-                </div>
-                <div class="carousel__item">
-                    <img src="/assets/img/lessuffragettes.webp" alt="Affiche du film Les Suffragettes">
-                    <p>
-                        Suffragette, 2015,
-                        <br/>
-                        Sarah Gavron
-                    </p>
-                </div>
+        <section class="frise">
+            <div class="frise-content">
+                <img class="frise__img-g" src="/assets/img/henrietta_swan_leavitt_frise.webp">
+                <p class="frise__texte">
+                    Henrietta Leavitt
+	                Astronomer
+                    <br/>
+                    Discovered the relation between the brightness and the Cepheides phase (dimensions of distances in the’univers)
+                    <br/>
+                    It’s Hubble who obtain all the glory of this discovery
+                    <br/>
+                    1868-1921
+                </p>
+                <img class="frise__img-d" src="/assets/img/lisemeitner.webp">
+                <p class="frise__texte">
+                    Lise Meitner
+	                Nuclear Physicist
+                    <br/>
+                    Discovered nuclear fusion with Otto Hahn
+                    <br/>
+                    Otto Hahn received the Nobel Prize, alone
+                    <br/>
+                    1878-1968
+                </p>
+                
+                <img class="frise__img-g" src="/assets/img/nettiestevens.webp">
+                <p class="frise__texte">
+                    Nettie Stevens
+                    Geneticist
+                    <br/>
+                    Discovered the role of chromosomes X and Y determining the gender of a human
+                    <br/>
+                    Its Hunt Morgan who received all of the credit
+                    <br/>
+                    1861-1912
+                </p>
+                <img class="frise__img-d" src="/assets/img/rosalindfranklin.webp">
+                <p class="frise__texte">
+                    Rosalind Franklin
+	                Physical Chemestist
+                    <br/>
+                    She discovered the double helix structure of the ADN
+                    <br/>
+                    But it’s Watson, Crick and Wilkins who have been awarded the Nobel Prize of Medicine
+                    <br/>
+                    1920-1958
+                </p>
+                
+                <img class="frise__img-g" src="/assets/img/estherlederberg.webp">
+                <p class="frise__texte">
+                    Esther Lederberg
+	                Microbiologist
+                    <br/>
+                    Discovered the bacterial culture by replication
+                    <br/>
+                    It's her husband who obtained the Nobel Prize without her.
+                    <br/>
+                    1922-2006
+                </p>
             </div>
-            <div class="carousel__controls">
-                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
-                        <
-                </button>
-                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
-                        >
-                </button>
-            </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <nav class="footer__nav">
             <ul>
                 <li>
                     <a href="#">
-                        à propos
+                        about
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="contact.html">
                         contact
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        Autres projets
+                        Other projects
                     </a>
                 </li>
             </ul>
@@ -239,10 +222,10 @@
             <a href="mailto:salut@iut.montbeliard-mmi.fr">salut@iut.montbeliard-mmi.fr</a>
         </address>
         <p class="footer__text-mention-legale">
-            projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département
+            project realised in 2025 as part of an educational exercise at the department
             <span>
                 <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                    MMI de Montbéliard
+                    MMI of Montbéliard.
                 </a>
             </span>
         </p>
