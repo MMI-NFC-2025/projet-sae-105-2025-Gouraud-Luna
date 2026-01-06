@@ -4,10 +4,37 @@
     float: right;
     clear: right;
     margin: 22px;
+    background-color: var(--purple);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .frise__img-g {
     width: 130px;
     height: auto;
+    float: left;
     margin: 22px;
+    background-color: var(--purple);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.frise__img-g + .frise__texte {
+    text-align: left;
+    display: block;
+    float: left;
+    margin: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.frise__img-d + .frise__texte {
+    text-align: left;
+    display: block;
+    float: right;
+    clear: right;
+    margin: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
