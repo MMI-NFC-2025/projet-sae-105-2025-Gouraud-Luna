@@ -19,10 +19,10 @@ h1{
 
 h2{
     color: white;
-    font-family: var(--font-titre);
     margin-bottom: 31px;
     margin-top: 22px;
     font-size: var(--texte-h2);
+    font-family: var(--font-titre);
 }
 
 h3{
@@ -60,4 +60,9 @@ p{
     color: var(--gris);
     text-decoration: underline;
     font-style: oblique;
+}
+
+.presentationprojet,
+.presentation{
+    text-align: center;
 }
