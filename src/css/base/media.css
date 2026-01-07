@@ -3,12 +3,57 @@ video{
     height: auto;
 }
 
+img{
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 10;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 138.92px;
+    height: 146.0px;
+}
+
 .img_pictureascientist{
     width: 191px;
     height: 283px;
     padding: 26px;
-    background-color: rgba(255, 255, 255, 0.26);
     margin-top: 27px;
     margin-left: 79px;
     margin-right: 80px;
+}
+
+.carousel__item img {
+display: block;
+margin: 0 auto;
+position:static;
+}
+
+.discover-card img {
+    width: 134px;
+    height: 182px;
+}
+
+.frise__img-d{
+    width: 130px;
+    height: auto;
+    float: right;
+    clear: right;
+    margin: 22px;
+    background-color: var(--purple);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.frise__img-g {
+    width: 130px;
+    height: auto;
+    float: left;
+    margin: 22px;
+    background-color: var(--purple);
+    padding: 10px;
+    border-radius: 20px;
 }

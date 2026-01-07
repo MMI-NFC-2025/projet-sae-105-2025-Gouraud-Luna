@@ -35,9 +35,3 @@ scroll-snap-align: center;
 .carousel__item p {
     text-align: center;
 }
-
-.carousel__item img {
-display: block;
-margin: 0 auto;
-position:static;
-}

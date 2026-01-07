@@ -1,24 +1,3 @@
-.frise__img-d{
-    width: 130px;
-    height: auto;
-    float: right;
-    clear: right;
-    margin: 22px;
-    background-color: var(--purple);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.frise__img-g {
-    width: 130px;
-    height: auto;
-    float: left;
-    margin: 22px;
-    background-color: var(--purple);
-    padding: 10px;
-    border-radius: 20px;
-}
-
 .frise__img-g + .frise__texte {
     text-align: left;
     display: block;

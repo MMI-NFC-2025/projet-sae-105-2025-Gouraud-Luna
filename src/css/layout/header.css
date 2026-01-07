@@ -27,10 +27,6 @@
     margin-left: auto;
 }
 
-.langage-switcher img{
-    cursor: default;
-}
-
 #language-switcher{
     margin-left: 1px;
     display: inline-block;
