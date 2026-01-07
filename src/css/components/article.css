@@ -14,8 +14,8 @@ article a {
 
 button.article-btn{
     background-color: var(--rouge);
-    width: 259px;
-    height: 45px;
+    min-width: 290px;
+    height: auto ;
     margin-top: 58px;
     margin-bottom: 58px;
     margin-left: 67px;

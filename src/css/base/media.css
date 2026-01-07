@@ -4,6 +4,7 @@ video{
 }
 
 img{
+
     background-color: var(--purple);
     border-radius: 20px;
     padding: 10;
@@ -15,6 +16,13 @@ article img {
     max-width: 100%;
     width: 138.92px;
     height: 146.0px;
+}
+
+article img.livre{
+    width: 135px;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 10px;
 }
 
 .img_pictureascientist{
