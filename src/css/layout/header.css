@@ -23,19 +23,15 @@
     display: inline-flex;
     align-items: center;
     gap: 1px;
-    color: white;
+    color: var(--gris);
     margin-left: auto;
 }
 
-#language-switcher{
-    margin-left: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    background: transparent;
-    border: none;
-    padding: 0;
+.langage-switcher p{
+    font-size: var(--texte-small);
     color: var(--gris);
-    appearance: none;
+    margin-bottom: 3px;
+    margin-left: 2px;
 }
 
 .menu-btn{
