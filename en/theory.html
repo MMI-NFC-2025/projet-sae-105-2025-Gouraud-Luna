@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echos of Matilda - Home page</title>
+    <title>Echos de Matilda - Jocelyn Bell Burnell's theory</title>
     <!--style-->
     <link rel="stylesheet" href="/src/css/style.css">
 
@@ -121,64 +121,46 @@
         </nav>
     </header>
     <main>
-        <div class="hero__index">
+        <div class="hero">
             <h1>
-                What is the Matilda Effect ?
+                Jocelyn Bell Burnell's theory
             </h1>
-            <div class="hero__card">
-                <p>
-                    A women scientist make a discovery
-                </p>
-            </div>
-            <div class="hero__card">
-                <p>
-                    All of her work is attributed to a male coworker
-                </p>
-            </div>
-            <div class="hero__card">
-                <p>
-                    It doesn't give a correct representation of women
-                </p>
-            </div>
+            <nav aria-label="Breadcrumb" class="breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span aria-current="page">Jocelyn Bell Burnell's theory</span></li>
+                </ol>
+            </nav>
         </div>
-        <h2>
-            More on The Matilda Effect
-        </h2>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/jocelynbellburnell_discover_card.webp" alt="photos de Jocelyn">
-                <p>
-                    The Exemple of Jocelyn Bell Burnell
-                    , a britain astrophysicist who discovered Pulsars.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/pulsar_discover_card.webp" alt="Photo de pulsar">
-                <p>
-                    Jocelyn's theory on the pulsars and the context that lead her to discover it.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/livres_discover_card.webp" alt="images de livres" loading="lazy">
-                <p>
-                    Depending on the era, Woman are represented
-                    differently in litterature.
-                </p>
-            </a>
-        </div>
-        <div class="discover-card">
-            <a href="#">
-                <img src="/assets/img/picture_a_scientist_discover_card.webp"
-                    alt="Affiche du documentaire Picture a scientist" loading="lazy">
-                <p>
-                    Discrimination lived by women scientist and the questioning of a science presented as egalitarian.
-                </p>
-            </a>
-        </div>
+        <article>
+            <p>
+                Lorsque Jocelyn Bell Burnell étudiait les signaux radio provenant de l’espace, elle remarqua quelque chose 
+                d’étrange : un signal régulier qui se répétait environ toutes les secondes.
+            </p>
+            <img src="/assets/img/etoile.webp" alt="phot d'un ciel étoilé" style="width: 293px; height: auto;">
+            <p>
+                Certains chercheurs pensaient d’abord qu’il pouvait venir d’extraterrestre, 
+                c’est pourquoi ils l’ont surnommé LGM-1, pour “Little Green Men” (Petits hommes verts n°1). Plus tard,
+                 on a découvert qu’il s’agissait en réalité d’un nouveau type d’étoile, encore inconnu, nommé pulsar par la suite.
+                Cette découverte a montré que certaines étoiles peuvent survivre à leur propre explosion sous une autre forme, 
+                et qu’il est possible “d’entendre” les sons de l’univers grâce aux ondes radio.
+            </p>
+            <img src="/assets/img/pulsar_article_c.webp" alt="photo de pulsar" style="width: 250px; height: 145px;">
+            <p>
+                Aujourd’hui, cette découverte des pulsars est utilisé par les astrophysiciens pour :
+                <ul>
+                    <li>
+                        Mesurer le temps avec précision
+                    </li>
+                    <li>
+                        Cartographier la galaxie
+                    </li>
+                    <li>
+                        Tester la théorie de la relativité d’Einstein
+                    </li>
+                </ul>
+            </p>
+        </article>
     </main>
     <footer class="footer">
         <nav class="footer__nav">
@@ -218,5 +200,3 @@
     <!--script-->
     <script src="/src/js/script.js"></script>
 </body>
-
-</html>
